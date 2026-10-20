@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TOURIST BURMA (1962–1988) | State Tourism & Archival Heritage</title>
+  
+  <!-- Archival Metadata & Dublin Core -->
+  <meta name="description" content="Digital humanities archive and interactive exhibition documenting state-controlled tourism, Trade Corporation No. 20, and the 7-day visa under Burma's Socialist Programme Party (1962–1988).">
+  <meta name="author" content="Office of the Burma Archives Head — Historical Documentation Unit">
+  <meta name="DC.Identifier" content="BSPP-TB-1970-80s-DOC">
+  <meta name="DC.Coverage" content="1962-1988">
+  <meta name="DC.Subject" content="Tourist Burma, BSPP, Burmese Way to Socialism, Strand Hotel, Form C-102">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- =========================================================================
+       1. STATE TOP DOSSIER BAR (STICKY CHROME)
+       ========================================================================= -->
+  <div class="dossier-bar">
+    <div class="dossier-bar-left">
+      <span class="dossier-badge">DECLASSIFIED</span>
+      <span>ARCHIVE REF: BSPP-TB-1970-80s-DOC</span>
+      <span class="desktop-only" style="opacity: 0.6;">|</span>
+      <span class="desktop-only">TRADE CORPORATION NO. 20</span>
+    </div>
+    <div class="dossier-bar-right">
+      <button id="soundToggleBtn" class="utility-btn" title="Toggle Typewriter & Stamp Audio">
+        <span>🔇</span> Sound: OFF
+      </button>
+      <button id="themeToggleBtn" class="utility-btn" title="Toggle Clean Modern Mode">
+        <span>⚙️</span> Clean Mode
+      </button>
+    </div>
+  </div>
+
+  <!-- =========================================================================
+       2. PRIMARY BRAND HEADER & NAVIGATION
+       ========================================================================= -->
+  <header class="site-header">
+    <div class="header-container">
+      <a href="#walkthrough" class="brand-wrapper" title="Tourist Burma Archive Home">
+        <!-- Authentic Restored Tourist Burma Peacock & Pagoda Emblem (SVG) -->
+        <svg class="brand-emblem-svg" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="50" cy="50" r="47" stroke="#3E2723" stroke-width="3" fill="#F4EFE6" />
+          <circle cx="50" cy="50" r="42" stroke="#8B1E1E" stroke-width="1.5" stroke-dasharray="3 2" />
+          <!-- Shwedagon Spire Motif -->
+          <path d="M50 14 L53 32 L47 32 Z" fill="#C59B27" stroke="#3E2723" stroke-width="1" />
+          <path d="M45 32 L55 32 L53 48 L47 48 Z" fill="#C59B27" stroke="#3E2723" stroke-width="1" />
+          <!-- Royal Dancing Peacock Silhouette (Daung) -->
+          <path d="M50 48 C43 48 37 54 37 62 C37 70 44 76 50 76 C56 76 63 70 63 62 C63 54 57 48 50 48 Z" fill="#8B1E1E" />
+          <path d="M50 42 C48 42 46 44 46 46 C46 48 48 50 50 50 C52 50 54 48 54 46 C54 44 52 42 50 42 Z" fill="#C59B27" />
+          <!-- Outstretched Tail Feathers -->
+          <circle cx="34" cy="56" r="3.5" fill="#C59B27" stroke="#3E2723" stroke-width="0.8"/>
+          <circle cx="66" cy="56" r="3.5" fill="#C59B27" stroke="#3E2723" stroke-width="0.8"/>
+          <circle cx="38" cy="48" r="3" fill="#C59B27" stroke="#3E2723" stroke-width="0.8"/>
+          <circle cx="62" cy="48" r="3" fill="#C59B27" stroke="#3E2723" stroke-width="0.8"/>
+          <circle cx="44" cy="43" r="2.5" fill="#C59B27" stroke="#3E2723" stroke-width="0.8"/>
+          <circle cx="56" cy="43" r="2.5" fill="#C59B27" stroke="#3E2723" stroke-width="0.8"/>
+          <!-- State Ribbon Banner -->
+          <path d="M22 76 L78 76 L74 86 L26 86 Z" fill="#3E2723" />
+          <text x="50" y="83.5" font-family="'Courier Prime', monospace" font-size="6.5" font-weight="bold" fill="#FAF7F0" text-anchor="middle" letter-spacing="1">TOURIST BURMA</text>
+        </svg>
+
+        <div class="brand-text-block">
+          <h1>TOURIST BURMA</h1>
+          <div class="brand-subhead">
+            <span>STATE ARCHIVE & EXHIBITION (1962–1988)</span>
+            <span class="myanmar-tag">မြန်မာ့ဆိုရှယ်လစ်လမ်းစဉ်ပါတီ</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- SPA Navigation Links -->
+      <nav aria-label="Main Archive Navigation">
+        <ul class="nav-menu">
+          <li><a href="#walkthrough" class="nav-link active" data-route="walkthrough"><span>⏱</span> The 168 Hours</a></li>
+          <li><a href="#circuit" class="nav-link" data-route="circuit"><span>🗺</span> "Big Four" Map</a></li>
+          <li><a href="#economy" class="nav-link" data-route="economy"><span>💵</span> Form C-102</a></li>
+          <li><a href="#strand" class="nav-link" data-route="strand"><span>🏨</span> The Strand</a></li>
+          <li><a href="#vault" class="nav-link" data-route="vault"><span>📂</span> Digital Vault</a></li>
+          <li><a href="#about" class="nav-link" data-route="about"><span>📜</span> Archival Record</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- =========================================================================
+       3. HISTORICAL TELETYPE TICKER
+       ========================================================================= -->
+  <div class="state-ticker" aria-hidden="true">
+    <div class="ticker-content">
+      <div class="ticker-item"><span class="ticker-alert">[DIRECTIVE 78/B]:</span> Mandatory currency declaration on Form C-102 at Mingaladon Airport.</div>
+      <div class="ticker-item"><span>•</span> MAXIMUM STAY PERMITTED: 168 HOURS (7 DAYS). OVERSTAYING PROHIBITED UNDER IMMIGRATION ACT.</div>
+      <div class="ticker-item"><span>•</span> OFFICIAL CONVERSION RATE: 6.85 KYATS PER 1.00 USD. UNOFFICIAL STREET EXCHANGE STRICTLY FORBIDDEN.</div>
+      <div class="ticker-item"><span>•</span> STATE FLEET: HINO &amp; ISUZU BUS RUNS BETWEEN SULE PAGODA RD &amp; MANDALAY CENTRAL.</div>
+    </div>
+  </div>
+
+  <!-- =========================================================================
+       4. MAIN APPLICATION CONTAINER (SPA VIEWS)
+       ========================================================================= -->
+  <main class="main-wrapper">
+
+    <!-- =======================================================================
+         VIEW 1: THE 168-HOUR WALKTHROUGH (NARRATIVE EXHIBITION)
+         ======================================================================= -->
+    <section id="view-walkthrough" class="app-view active">
+      <!-- Hero Dossier Overview -->
+      <div class="hero-dossier">
+        <div class="hero-header-line">
+          <div>
+            <div class="dossier-badge" style="margin-bottom: 8px;">HISTORICAL DOSSIER // CASE TB-1962-88</div>
+            <h2 class="hero-title">The 168-Hour Window</h2>
+            <div class="hero-subtitle">Socialist Tourism Behind the Closed Doors of Ne Win's Burma</div>
+          </div>
+          <div class="stamp stamp-crimson">OFFICIALLY SANCTIONED</div>
+        </div>
+
+        <p class="hero-lead">
+          During the reign of General Ne Win and the Burma Socialist Programme Party (BSPP), Burma carried out one of the most radical state-isolationist policies in modern Asian history under the <strong>"Burmese Way to Socialism" (<em>Lanzin</em>)</strong>. Private enterprise was liquidated, foreigners were viewed with intense geopolitical suspicion, yet the regime still required hard foreign currency.
+        </p>
+        <p style="font-size: 1.05rem; line-height: 1.7; color: var(--color-ink-secondary);">
+          The regime's solution was <strong>Tourist Burma</strong> (Trade Corporation No. 20): an absolute state travel monopoly that funneled international visitors through a tightly choreographed 7-day (168-hour) countdown along the approved "Big Four" loop.
+        </p>
+
+        <div class="hero-meta-grid">
+          <div>
+            <div class="meta-field-label">Custodian Agency</div>
+            <div class="meta-field-val">Trade Corp No. 20 (Hotels &amp; Tourism)</div>
+          </div>
+          <div>
+            <div class="meta-field-label">Visa Validity</div>
+            <div class="meta-field-val">7 Days Exactly (168 Hours Max)</div>
+          </div>
+          <div>
+            <div class="meta-field-label">Primary HQ</div>
+            <div class="meta-field-val">#143 Sule Pagoda Road, Rangoon</div>
+          </div>
+          <div>
+            <div class="meta-field-label">Approved Circuit</div>
+            <div class="meta-field-val">Rangoon – Mandalay – Pagan – Inle</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Interactive 168-Hour Timeline Scrubber -->
+      <div class="timeline-scrubber-card">
+        <div class="scrubber-header">
+          <div class="scrubber-title">
+            <span>⏱</span> <strong>Interactive Itinerary Scrubber (Day 0 to Day 7)</strong>
+          </div>
+          <div class="countdown-clock" id="activeClockDisplay">
+            000:00 / 168:00 HRS
+          </div>
+        </div>
+        <div class="scrubber-steps" id="scrubberSteps">
+          <!-- Dynamically populated by app.js -->
+        </div>
+      </div>
+
+      <!-- Chronological Chapters List -->
+      <div class="chapter-container" id="chaptersList">
+        <!-- Dynamically rendered by app.js -->
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         VIEW 2: THE "BIG FOUR" CIRCUIT LOGISTICS MAP
+         ======================================================================= -->
+    <section id="view-circuit" class="app-view">
+      <div class="circuit-layout">
+        <!-- Interactive Cartography Canvas -->
+        <div class="map-card">
+          <div class="map-header">
+            <span class="dossier-badge" style="margin-bottom: 6px;">CARTOGRAPHIC LOGISTICS</span>
+            <h2 style="font-family: var(--font-display); font-size: 1.6rem; color: var(--color-teak-deep);">The "Big Four" Mandatory Loop</h2>
+            <p style="font-size: 0.88rem; color: var(--color-ink-secondary); margin-top: 4px;">
+              Select any checkpoint below to examine state accommodations, transit connections, and security checkpoints.
+            </p>
+          </div>
+
+          <!-- SVG Cartographic Map of Burma with Circuit Paths -->
+          <div class="map-svg-container">
+            <svg viewBox="0 0 400 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <!-- Grid / Coordinate Lines -->
+              <defs>
+                <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+                  <path d="M 20 0 L 0 0 0 20" fill="none" stroke="rgba(214, 200, 172, 0.4)" stroke-width="0.5" />
+                </pattern>
+                <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+                  <feDropShadow dx="1" dy="2" stdDeviation="2" flood-color="#3E2723" flood-opacity="0.3"/>
+                </filter>
+              </defs>
+              <rect width="400" height="500" fill="url(#grid)" />
+
+              <!-- Stylized Silhouette of Burma (Myanmar) -->
+              <path d="M 170 30 
+                       C 190 20, 240 50, 250 80 
+                       C 260 110, 290 140, 290 190 
+                       C 290 230, 310 270, 300 320 
+                       C 285 360, 260 410, 270 480 
+                       C 255 490, 230 460, 230 420 
+                       C 210 410, 180 410, 160 380 
+                       C 140 350, 110 320, 110 270 
+                       C 110 210, 130 140, 150 90 Z" 
+                    fill="#E2D7C1" stroke="#A89A82" stroke-width="1.5" />
+
+              <!-- Irrawaddy River Graphic Path -->
+              <path d="M 215 50 
+                       Q 230 120 220 180 
+                       Q 190 200 160 215 
+                       Q 180 290 195 340 
+                       Q 190 380 180 410" 
+                    fill="none" stroke="#688E99" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="4 2" />
+
+              <!-- TRANSPORT ROUTE: Rail (Rangoon -> Mandalay) -->
+              <path id="circuitPathRail" d="M 195 390 L 220 180" 
+                    stroke="#8B1E1E" stroke-width="3" stroke-dasharray="6 4" stroke-linecap="round" />
+
+              <!-- TRANSPORT ROUTE: River / Road (Mandalay -> Pagan) -->
+              <path id="circuitPathBus" d="M 220 180 L 160 215" 
+                    stroke="#2E3A2F" stroke-width="2.5" stroke-dasharray="4 4" stroke-linecap="round" />
+
+              <!-- TRANSPORT ROUTE: Air (Pagan -> Inle Lake -> Rangoon) -->
+              <path id="circuitPathFlight" d="M 160 215 L 265 240 L 195 390" 
+                    stroke="#1B4F72" stroke-width="2" stroke-dasharray="3 3" stroke-linecap="round" />
+
+              <!-- INTERACTIVE PINS -->
+              <!-- 1. Rangoon (Yangon) Pin -->
+              <g class="circuit-pin map-node-btn" data-node-id="node-rangoon" transform="translate(195, 390)">
+                <circle cx="0" cy="0" r="10" fill="#8B1E1E" filter="url(#shadow)" />
+                <circle cx="0" cy="0" r="4" fill="#FAF7F0" />
+                <text x="14" y="4" font-family="'Courier Prime', monospace" font-size="11" font-weight="bold" fill="#1C1B1A">1. RANGOON</text>
+              </g>
+
+              <!-- 2. Mandalay Pin -->
+              <g class="circuit-pin map-node-btn" data-node-id="node-mandalay" transform="translate(220, 180)">
+                <circle cx="0" cy="0" r="10" fill="#C59B27" filter="url(#shadow)" />
+                <circle cx="0" cy="0" r="4" fill="#FAF7F0" />
+                <text x="14" y="4" font-family="'Courier Prime', monospace" font-size="11" font-weight="bold" fill="#1C1B1A">2. MANDALAY</text>
+              </g>
+
+              <!-- 3. Pagan (Bagan) Pin -->
+              <g class="circuit-pin map-node-btn" data-node-id="node-pagan" transform="translate(160, 215)">
+                <circle cx="0" cy="0" r="10" fill="#5E3370" filter="url(#shadow)" />
+                <circle cx="0" cy="0" r="4" fill="#FAF7F0" />
+                <text x="-95" y="4" font-family="'Courier Prime', monospace" font-size="11" font-weight="bold" fill="#1C1B1A">3. PAGAN</text>
+              </g>
+
+              <!-- 4. Inle Lake Pin -->
+              <g class="circuit-pin map-node-btn" data-node-id="node-inle" transform="translate(265, 240)">
+                <circle cx="0" cy="0" r="10" fill="#1B4F72" filter="url(#shadow)" />
+                <circle cx="0" cy="0" r="4" fill="#FAF7F0" />
+                <text x="14" y="4" font-family="'Courier Prime', monospace" font-size="11" font-weight="bold" fill="#1C1B1A">4. INLE LAKE</text>
+              </g>
+
+              <!-- Legend Box in SVG -->
+              <g transform="translate(15, 415)">
+                <rect width="145" height="70" fill="rgba(244, 239, 230, 0.9)" stroke="#D6C8AC" stroke-width="1"/>
+                <text x="8" y="15" font-family="'Courier Prime', monospace" font-size="8" font-weight="bold" fill="#3E2723">TRANSIT LEGEND</text>
+                <line x1="10" y1="28" x2="35" y2="28" stroke="#8B1E1E" stroke-width="2.5" stroke-dasharray="4 2"/>
+                <text x="42" y="31" font-family="'Courier Prime', monospace" font-size="7.5" fill="#1C1B1A">16-Hr Sleeper Rail</text>
+                <line x1="10" y1="42" x2="35" y2="42" stroke="#2E3A2F" stroke-width="2" stroke-dasharray="3 3"/>
+                <text x="42" y="45" font-family="'Courier Prime', monospace" font-size="7.5" fill="#1C1B1A">Hino Bus / River</text>
+                <line x1="10" y1="56" x2="35" y2="56" stroke="#1B4F72" stroke-width="2" stroke-dasharray="2 2"/>
+                <text x="42" y="59" font-family="'Courier Prime', monospace" font-size="7.5" fill="#1C1B1A">BAC Fokker F27 Air</text>
+              </g>
+            </svg>
+          </div>
+
+          <!-- Filter buttons for transport layers -->
+          <div class="circuit-controls">
+            <span style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--color-ink-faded); align-self: center;">Layer Filter:</span>
+            <button class="circuit-mode-btn active" data-mode="all">Show All Routes</button>
+            <button class="circuit-mode-btn" data-mode="rail">Overnight Rail</button>
+            <button class="circuit-mode-btn" data-mode="air">BAC Fokker Air</button>
+            <button class="circuit-mode-btn" data-mode="bus">Hino Bus / River</button>
+          </div>
+        </div>
+
+        <!-- Node Details Inspector Panel -->
+        <div class="node-details-card" id="circuitNodeDetails">
+          <!-- Populated dynamically by app.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         VIEW 3: FORM C-102 & BLACK MARKET ECONOMY SIMULATOR
+         ======================================================================= -->
+    <section id="view-economy" class="app-view">
+      <div class="economy-grid">
+        <!-- Interactive Form C-102 -->
+        <div class="c102-document">
+          <div class="c102-stamp-overlay" id="c102StampVisual">
+            <div class="stamp stamp-cyan" style="font-size: 0.8rem; padding: 6px 14px;">
+              STATE COMMERCIAL BANK<br>FOREIGN EXCHANGE AUDIT
+            </div>
+          </div>
+
+          <div class="c102-header">
+            <div style="font-size: 0.75rem; letter-spacing: 0.1em; color: var(--color-seal-crimson); font-weight: 700;">UNION OF BURMA IMMIGRATION &amp; CUSTOMS</div>
+            <h2 class="c102-title-main">CURRENCY CONTROL FORM (C-102)</h2>
+            <div class="c102-title-sub">Declaration of Foreign Exchange &amp; Travelers Cheques on Inward Entry</div>
+          </div>
+
+          <div class="c102-input-panel">
+            <div class="c102-input-row">
+              <label for="economyYearSelect" class="form-label">Historical Year of Entry:</label>
+              <select id="economyYearSelect" class="c102-select">
+                <option value="1970">1970 (Early BSPP Era)</option>
+                <option value="1974">1974 (BSPP Constitution)</option>
+                <option value="1978" selected>1978 (Peak 7-Day Visa Circuit)</option>
+                <option value="1982">1982 (Central Press Brochure Era)</option>
+                <option value="1985">1985 (100-Kyat Demonetization)</option>
+                <option value="1987">1987 (Severe Demonetization Crisis)</option>
+              </select>
+            </div>
+
+            <div class="c102-input-row">
+              <label for="usdAmountInput" class="form-label">Hard Currency Declared ($ USD):</label>
+              <input type="number" id="usdAmountInput" class="c102-input" value="100" min="10" max="2000" step="10">
+            </div>
+          </div>
+
+          <!-- Dual Conversion Split Table -->
+          <div class="conversion-split-grid">
+            <div class="calc-box calc-box-official">
+              <div class="calc-rate-badge">State Bank Rate (Official)</div>
+              <div class="calc-big-number" id="c102OfficialTotal">685.00 Kyats</div>
+              <div class="calc-detail" id="c102OfficialRateDisplay">
+                Official State Bank Rate: 1 USD = 6.85 Kyats
+              </div>
+              <div class="power-comparison">
+                <div style="font-weight: 700; margin-bottom: 4px; font-size: 0.72rem; text-transform: uppercase;">State Purchasing Power:</div>
+                <ul class="power-list">
+                  <li>1 basic night at state guesthouse</li>
+                  <li>1 upper-class rail transit ticket</li>
+                  <li>Official Tourist Burma taxi voucher</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="calc-box calc-box-blackmarket">
+              <div class="calc-rate-badge">Street / Black Market ("Brown Economy")</div>
+              <div class="calc-big-number" id="c102BlackMarketTotal" style="color: var(--color-seal-crimson);">3,200.00 Kyats</div>
+              <div class="calc-detail" id="c102BlackMarketRateDisplay">
+                1978 Street Rate: 1 USD = 32.00 Kyats
+              </div>
+              <div class="power-comparison">
+                <div style="font-weight: 700; margin-bottom: 4px; font-size: 0.72rem; text-transform: uppercase; color: var(--color-seal-crimson);">Street Purchasing Power:</div>
+                <ul class="power-list">
+                  <li>14 days of full travel &amp; luxury dining</li>
+                  <li>4 handcrafted raw silk Longyis</li>
+                  <li>20 lacquered Bagan bowls &amp; gifts</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div style="display: flex; justify-content: space-between; align-items: center; padding-top: 12px; border-top: 1px dashed var(--color-paper-border); flex-wrap: wrap; gap: 8px;">
+            <div style="font-size: 0.72rem; color: var(--color-ink-faded);">
+              Black Market Arbitrage Factor: <strong id="arbitrageMultiplier" style="color: var(--color-seal-crimson); font-size: 0.95rem;">4.7x</strong>
+            </div>
+            <button id="applyStampBtn" class="btn-primary-action">
+              <span>🖃</span> Stamp Official Form
+            </button>
+          </div>
+        </div>
+
+        <!-- The "555 & Johnnie Walker" Contraband Standard -->
+        <div class="barter-arbitrage-card">
+          <div class="dossier-badge" style="margin-bottom: 6px;">SHADOW COMMERCE</div>
+          <h2 class="barter-title">The "555 &amp; Red Label" Standard</h2>
+          <div class="barter-subtitle">How Duty-Free Goods Became Burma's Parallel Convertible Reserve</div>
+          
+          <p style="font-size: 0.95rem; line-height: 1.6; color: var(--color-ink-primary); margin-bottom: 18px;">
+            Due to the strict state monopolies of the BSPP and extreme import bans on foreign consumer goods, international tourists quickly discovered that carton goods purchased at duty-free shops in Bangkok or Singapore were infinitely more coveted than cash.
+          </p>
+
+          <div class="barter-items-grid" id="barterItemsList">
+            <!-- Dynamically populated by app.js -->
+          </div>
+
+          <div style="background-color: var(--color-paper-muted); border-left: 3px solid var(--color-seal-crimson); padding: 14px 18px; margin-top: 20px; font-size: 0.85rem;">
+            <strong>Archival Note on the 1987 Demonetization:</strong> In September 1987, General Ne Win abruptly demonetized 25, 35, and 75 Kyat banknotes without exchange or compensation, replacing them with numerologically auspicious 45 and 90 Kyat notes (divisible by 9). This wiped out civilian savings and served as the direct catalyst for the 8888 Nationwide Uprising.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         VIEW 4: THE STRAND HOTEL CASE STUDY
+         ======================================================================= -->
+    <section id="view-strand" class="app-view">
+      <div class="strand-hero-card">
+        <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 16px;">
+          <div>
+            <div class="dossier-badge" style="margin-bottom: 6px;">STATE ENTERPRISE CASE STUDY</div>
+            <h2 style="font-family: var(--font-display); font-size: 2.2rem; color: var(--color-teak-deep);">The Strand Hotel</h2>
+            <div style="font-family: var(--font-mono); font-size: 0.9rem; color: var(--color-seal-crimson); margin-top: 4px;">
+              92 Strand Road, Rangoon • Trade Corporation No. 20 Flagship
+            </div>
+          </div>
+          <div class="stamp stamp-violet">HISTORIC LANDMARK</div>
+        </div>
+
+        <p style="font-size: 1.1rem; line-height: 1.7; color: var(--color-ink-primary); margin-top: 20px; max-width: 950px;">
+          Built in 1901 by the Sarkies brothers on the Rangoon riverfront, The Strand was once celebrated alongside Raffles in Singapore as the premier grand colonial hotel of Southeast Asia. Following the 1964 nationalization decrees, the hotel was seized by Trade Corporation No. 20 and became the official nerve center of Tourist Burma.
+        </p>
+
+        <p style="font-size: 0.98rem; line-height: 1.7; color: var(--color-ink-secondary); margin-top: 12px; max-width: 950px;">
+          Under state administration, it entered an era of muted, nostalgic preservation: teak floors waxed with kerosene, slow-whirring ceiling fans in high-ceilinged saloons, and elderly waiters who had served since the pre-independence era delivering pots of strong Myanmar tea in chipped English porcelain.
+        </p>
+
+        <!-- Feature zones grid -->
+        <div class="strand-grid" id="strandFeaturesList">
+          <!-- Dynamically populated by app.js -->
+        </div>
+
+        <!-- Archival Dispatch Quote -->
+        <blockquote class="chapter-quote-block" style="margin-top: 32px;">
+          "The Strand in 1980 was not merely a hotel; it was a living museum of another century, gently crumbling in the tropical humidity while the rest of Burma marched to socialist slogans."
+          <div class="chapter-quote-author">— Diplomatic Dispatch, Foreign &amp; Commonwealth Office, 1980</div>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         VIEW 5: THE DIGITAL VAULT (ARCHIVAL REPOSITORY & INSPECTOR)
+         ======================================================================= -->
+    <section id="view-vault" class="app-view">
+      <div class="vault-header-bar">
+        <div>
+          <div class="dossier-badge" style="margin-bottom: 4px;">DECLASSIFIED ACCESSION REPOSITORY</div>
+          <h2 style="font-family: var(--font-display); font-size: 1.8rem; color: var(--color-teak-deep);">The Archival Vault</h2>
+          <p style="font-size: 0.88rem; color: var(--color-ink-secondary);">
+            Primary source records, travel brochures, consular visas, and economic manifests from 1962–1988.
+          </p>
+        </div>
+
+        <!-- Search Box -->
+        <div class="vault-search-box">
+          <span style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--color-ink-faded);">🔍</span>
+          <input type="text" id="vaultSearchInput" class="vault-search-input" placeholder="Search reference or keywords..." aria-label="Search Archival Vault">
+        </div>
+      </div>
+
+      <!-- Filter Tabs -->
+      <div class="vault-filters" style="margin-bottom: 24px;">
+        <button class="filter-btn active" data-category="all">All Documents (6)</button>
+        <button class="filter-btn" data-category="ephemera">Travel Ephemera</button>
+        <button class="filter-btn" data-category="legal">Legal &amp; Decrees</button>
+        <button class="filter-btn" data-category="currency">Currency &amp; Banking</button>
+        <button class="filter-btn" data-category="hospitality">Hospitality &amp; Fleet</button>
+      </div>
+
+      <!-- Dynamic Artifact Cards Grid -->
+      <div class="artifacts-grid" id="artifactsGrid">
+        <!-- Dynamically rendered by app.js -->
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         VIEW 6: ARCHIVAL DISCLOSURES & METHODOLOGY
+         ======================================================================= -->
+    <section id="view-about" class="app-view">
+      <div class="about-dossier-card">
+        <div class="dossier-badge" style="margin-bottom: 8px;">CURATORIAL METHODOLOGY &amp; SOURCING</div>
+        <h2 style="font-family: var(--font-display); font-size: 2rem; color: var(--color-teak-deep); margin-bottom: 12px;">
+          About the Tourist Burma Archive
+        </h2>
+
+        <div class="about-prose">
+          <p style="margin-bottom: 16px;">
+            The <strong>Tourist Burma Heritage Archive (1962–1988)</strong> is an open-access public history initiative dedicated to preserving and critically examining the phenomenon of state-controlled tourism under the Burma Socialist Programme Party (BSPP) regime.
+          </p>
+          <p style="margin-bottom: 16px;">
+            Between 1962 and 1988, Burma operated what was effectively one of the strictest tourism control models in modern history. The government carefully engineered a paradox: shielding Burmese society from external ideological contamination while extracting critical hard foreign currency from foreign travelers via standardized, high-speed 7-day itineraries.
+          </p>
+          <p style="margin-bottom: 16px;">
+            All materials presented here—including transcripts of <strong>Form C-102</strong>, immigration regulations, Burma Airways Corporation schedules, Central Press travel brochures, and hotel records—are compiled from declassified state enterprise publications, diplomatic dispatches, and primary travel accounts from the era.
+          </p>
+        </div>
+
+        <div class="archive-seal-box">
+          <!-- Circular Certified True Copy Seal -->
+          <svg class="seal-icon-emblem" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="50" cy="50" r="46" stroke="#8B1E1E" stroke-width="2.5" stroke-dasharray="4 2" />
+            <circle cx="50" cy="50" r="38" stroke="#8B1E1E" stroke-width="1.5" />
+            <path d="M 50 18 L 50 82 M 18 50 L 82 50" stroke="#8B1E1E" stroke-width="0.8" stroke-dasharray="2 2"/>
+            <text x="50" y="44" font-family="'Courier Prime', monospace" font-size="7" font-weight="bold" fill="#8B1E1E" text-anchor="middle">CERTIFIED</text>
+            <text x="50" y="52" font-family="'Courier Prime', monospace" font-size="6" font-weight="bold" fill="#8B1E1E" text-anchor="middle">TRUE COPY</text>
+            <text x="50" y="60" font-family="'Courier Prime', monospace" font-size="5" fill="#8B1E1E" text-anchor="middle">BURMA ARCHIVES</text>
+          </svg>
+          <div>
+            <div class="seal-text-title">Certified True Archival Copy</div>
+            <div class="seal-text-desc">
+              Office of the Burma Archives Head — Historical Documentation Unit.<br>
+              Catalog Ref: BSPP-TB-1970-80s-DOC. For academic and non-commercial research use.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =========================================================================
+       5. MODAL: ARCHIVAL DOCUMENT & TRANSCRIPT INSPECTOR
+       ========================================================================= -->
+  <div id="documentModal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modalArtifactTitle">
+    <div class="modal-dossier">
+      <div class="modal-header">
+        <div class="modal-header-title" id="modalArtifactTitle">
+          DECLASSIFIED DOSSIER // INSPECTION
+        </div>
+        <button id="closeModalBtn" class="modal-close-btn" aria-label="Close Inspection Modal">&times;</button>
+      </div>
+
+      <div class="modal-body-split">
+        <!-- Original Scan / Facsimile Rendering -->
+        <div class="modal-facsimile-pane">
+          <div style="font-family: var(--font-mono); font-size: 0.72rem; color: var(--color-seal-crimson); font-weight: 700; margin-bottom: 8px; letter-spacing: 0.05em;">
+            DOCUMENT FACSIMILE TRANSCRIPT (CENTRAL PRESS FORMAT):
+          </div>
+          <div class="modal-facsimile-box" id="modalTranscriptBox">
+            <!-- Populated dynamically -->
+          </div>
+        </div>
+
+        <!-- Archival Metadata & Actions -->
+        <div class="modal-meta-pane">
+          <div>
+            <div class="dossier-badge" style="margin-bottom: 6px;">DUBLIN CORE METADATA</div>
+            <h3 class="meta-record-title" id="modalMetaTitle">Document Title</h3>
+          </div>
+
+          <table class="meta-table" id="modalMetaTable">
+            <!-- Populated dynamically -->
+          </table>
+
+          <div class="action-btn-row">
+            <button id="copyCitationBtn" class="btn-primary-action">
+              <span>📋</span> Copy Archival Citation
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================================================
+       6. SITE FOOTER
+       ========================================================================= -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <div class="footer-brand-title">TOURIST BURMA (1962–1988)</div>
+        <p class="footer-desc">
+          A digital public history archive documenting state travel monopolies, foreign exchange regulations, and architectural heritage during the socialist era of the Union of Burma.
+        </p>
+        <div style="margin-top: 14px; font-family: var(--font-mono); font-size: 0.75rem; color: var(--color-pagoda-gold);">
+          ARCHIVE REF: BSPP-TB-1970-80s-DOC
+        </div>
+      </div>
+
+      <div>
+        <div class="footer-col-title">Exhibition Sections</div>
+        <ul class="footer-links">
+          <li><a href="#walkthrough">The 168-Hour Walkthrough</a></li>
+          <li><a href="#circuit">"Big Four" Circuit Map</a></li>
+          <li><a href="#economy">Form C-102 Currency Calculator</a></li>
+          <li><a href="#strand">The Strand Hotel Case Study</a></li>
+          <li><a href="#vault">Declassified Vault Index</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <div class="footer-col-title">Historical Custody</div>
+        <ul class="footer-links">
+          <li><a href="#about">Burma Archives Department</a></li>
+          <li><a href="#about">Trade Corporation No. 20</a></li>
+          <li><a href="#about">Ministry of Trade Records</a></li>
+          <li><a href="#about">Lanzin Party Documentation</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom-bar">
+      <div>Socialist Republic of the Union of Burma — Historical Documentation Initiative</div>
+      <div>Designed in accordance with <a href="design.md" style="color: #D6C8AC;">design.md</a> specifications.</div>
+    </div>
+  </footer>
+
+  <!-- Script Modules -->
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
